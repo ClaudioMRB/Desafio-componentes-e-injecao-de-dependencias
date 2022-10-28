@@ -1,13 +1,12 @@
 package com.devsuperior.entities;
 
-import org.springframework.stereotype.Service;
-
-
 public class Order {
 
-	Integer code;
-	Double basic;
-	Double discount;
+	
+
+	Integer code = 0 ;
+	Double basic = 0.0;
+	Double discount = 0.0;
 	
 	public Order() {
 		
@@ -19,6 +18,7 @@ public class Order {
 		this.discount = discount;
 	}
 
+	
 	public Integer getCode() {
 		return code;
 	}
